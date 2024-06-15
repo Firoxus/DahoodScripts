@@ -1,0 +1,19 @@
+--// the one and only desyncware source
+
+-- delay for tricky tricks
+spawn(function()
+while wait() do
+stat = true
+task.wait(0.146)
+stat = false
+end
+end)
+
+game.RunService.Heartbeat:Connect(function()
+        local Old = game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.Humanoid.MoveDirection * 0.029
+        game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = stat
+        game.RunService.RenderStepped:Wait()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = Old
+    end
+end)

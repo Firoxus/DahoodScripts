@@ -1,0 +1,53 @@
+getgenv().GoldenAnti = {
+    Rage = {
+        ["Desync"] = ( false ),
+        ["DesyncToggle"] = ( "X" ),
+        
+        ["UnHittable"] = ( false ),
+        ["UnHittableKeyBind"] = ( "X" ),
+        
+        ["UnderGround"] = ( false ),
+        ["UseHipHeight"] = ( false ), 
+        ["HipHeight"] = ( 2 ), 
+        ["UnderGroundPower"] = ( -100 ), 
+        ["UnderGroundKeyBind"] = ( "X" ),
+    },
+    Legit = {
+        ["LegitDesync"] = ( false ),
+        ["LegitDesyncKeyBind"] = ( "C" ),
+        
+        ["LegitUnderGround"] = ( false ),
+        ["LegitUnderGroundKeyBind"] = ( "X" ),
+        
+        ["LegitSky"] = ( false ),
+        ["LegitSkyKeyBind"] = ( "X" ),
+        
+        ["PredictionBreakor"] = ( false ),
+        ["PredictionBreakorKeyBind"] = ( "C" ),
+    },
+    Axis = {
+        ["Enabled"] = ( false ),
+        ["AxisKeyBind"] = ( "c" ),
+        ["X"] = ( 100 ),
+        ["Y"] = ( 100 ),
+        ["Z"] = ( 100 ),
+    },
+    Random = {
+        ["Random"] = ( false ),
+        ["RandomToggle"] = ( "C" ),
+        X = {
+            ["Minimum"] = ( 0 ),
+            ["Maximum"] = ( 1000 ),
+        },
+        Y = {
+            ["Minimum"] = ( 0 ),
+            ["Maximum"] = ( 1000 ),
+        },
+        Z = {
+            ["Minimum"] = ( 0 ),
+            ["Maximum"] = ( 1000 ),
+        }
+    }
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UmmGolden/GoldensAntiV2/main/UwUGolden", true))()

@@ -1,0 +1,23 @@
+_G.AutofarmSettings = {
+    ["AttackMode"] = "3",
+    --// ^ 1 - Fast Punch | 2 - Super Punch | 3 - Knife (PROB THE FASTEST).
+
+    ["Fps"] = "10",
+    --// ^ Wouldnt recommend going below 5. ^
+
+    ["Codes"] = {
+        "ExampleCode1", 
+        "ExampleCode2"
+    }, 
+    --// ^ (optional) Codes that will be automatically claimed. ^
+
+    ["Webhook"] = "",
+    --// ^ (optional) Webhook link that logs will be sent to. ^
+    
+    ["LogInterval"] = "2",
+    --// ^ How often the logs will be sent in minutes.
+    
+    ["Credits"] = "iku autofarm - by @trans"
+}
+
+loadstring(game:HttpGet("https://github.com/applless/RandomScripts/raw/main/IkuAutofarm"))()

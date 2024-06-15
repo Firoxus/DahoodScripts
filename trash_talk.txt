@@ -1,0 +1,22 @@
+getgenv().Trash = {
+    'SEED',
+    'SONNED',
+    'random i own u lol',
+    'L',
+    'ez',
+    'what are u aiming at?',
+    'focus son',
+    'ssa',
+    'dog',
+    'no aim LOL',
+    'try harder next time',
+    'random',
+    'legit garbage bro',
+    'random' ,
+    --[[
+        U can add more by putting [   'WordHere',   ] -- DO NOT FORGET THE COMMA OR IT WILL NOT WORK 
+    ]]
+}
+
+getgenv().TrashTalkBind = "j" --Must be lowercase
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/OpenSource/main/TrashTalk"))()

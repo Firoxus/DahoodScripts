@@ -1,3 +1,4 @@
+--[[
 lock detector
 
 1.the dot follows u good when they locking
@@ -5,6 +6,7 @@ lock detector
 2.the dot goes crazy when they arent
 
 3.u gotta click q on ur target
+]]--
 
 local placemarker = Instance.new("Part", game.Workspace)
 local Plr
